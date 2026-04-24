@@ -33,8 +33,10 @@ python demo.py
 - `./QW25/models/Qwen/Qwen2___5-0___5B-Instruct`
 
 当前目录不存在该模型，会导致启动失败。你可以：
--cd QW25
--python download.py
+```powershell
+cd QW25
+python download.py
+```
 - 下载后自动生成 models/Qwen/Qwen2.5-0.5B-Instruct
 
 ## 3. 环境配置（Windows / PowerShell）
@@ -46,6 +48,13 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 pip install -r requirements.txt
+```
+## 4. 运行程序（Windows / Linux）
+
+建议 Python 版本：`3.10`，完成前述步骤后
+
+```powershell
+python demo.py
 ```
 
 ## 4. 命令行工具脚本
