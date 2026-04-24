@@ -58,11 +58,14 @@ pip install -r requirements.txt
 python convertOnnxToTensorRT.py -i <input.onnx> -o <output.trt>
 ```
 
+输出文件会在同目录生成 `<原文件名>.trt`。
 2. ONNX -> TensorRT（TensorRT 10）
 
 ```powershell
 python convertOnnxToTensorRT10.py -i <input.onnx> -o <output.trt>
 ```
+
+输出文件会在同目录生成 `<原文件名>_10.trt`。
 
 3. ONNX FP16 量化
 
