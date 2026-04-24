@@ -1,0 +1,6 @@
+bus
+pedestrian
+rider
+truck
+motorcycle
+car
